@@ -1,0 +1,61 @@
+footer {
+  border-top: 1px solid #dddd;
+
+  .footer-logo {
+    width: auto;
+    height: 100px;
+    margin-left: -10px;
+  }
+  .copyright {
+    border-top: 1px solid #dddd;
+    a {
+      font-weight: 600;
+    }
+    p {
+      span {
+        color: $black;
+        font-weight: 700;
+        opacity: 1;
+      }
+    }
+  }
+  h3 {
+    font-weight: 700;
+    font-size: 1.5rem;
+    opacity: 0.9;
+    margin: 25px 0 10px 0;
+    color: $black;
+  }
+  ul {
+    margin: 0 0 0 3px;
+    padding: 0;
+    li {
+      list-style: none;
+      font-size: 1rem;
+      font-weight: 500;
+      padding: 6px 0;
+      opacity: 0.8;
+      span {
+        font-weight: 700 !important;
+        color: $dark !important;
+        opacity: 1 !important;
+      }
+      &:hover {
+        color: $warning;
+        cursor: pointer;
+        opacity: 1;
+        span {
+          color: $dark !important;
+        }
+      }
+      a {
+        color: $dark;
+        &:hover {
+          color: $warning;
+          cursor: pointer;
+          opacity: 1;
+        }
+      }
+    }
+  }
+}

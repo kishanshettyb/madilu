@@ -1,0 +1,57 @@
+@import 'madilu/variables';
+@import '../../node_modules/bootstrap/scss/bootstrap.scss';
+@import 'madilu/theme';
+
+body {
+  font-family: 'Quicksand', sans-serif;
+}
+p {
+  font-weight: 500;
+  opacity: 0.8;
+  line-height: 1.8;
+}
+section {
+  padding: 80px 0;
+}
+
+.headline {
+  span {
+    display: block;
+    background-color: #f8d9ad61;
+    color: $warning;
+    font-weight: 600;
+    padding: 5px 10px;
+    border: 1px solid #f8d9ad61;
+    border-radius: 5px;
+    width: fit-content;
+    margin-bottom: 1rem;
+    font-size: 1rem;
+    text-transform: uppercase;
+    &.blue-bg {
+      background-color: #a8c2e57d;
+      color: $dodger-blue !important;
+      border: 1px solid #a8c2e57d;
+    }
+    &.white-bg {
+      background-color: #ffffff73;
+      color: $white !important;
+      border: 1px solid #ffffff73;
+    }
+  }
+
+  h2 {
+    font-weight: 600;
+    margin-bottom: 1rem;
+    opacity: 0.9;
+  }
+  p {
+    color: $gray-900;
+    font-weight: 500;
+  }
+}
+.fw-500 {
+  font-weight: 500;
+}
+a {
+  text-decoration: none;
+}

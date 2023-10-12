@@ -1,0 +1,27 @@
+.logo-img {
+  height: 100px;
+  width: auto;
+}
+.nav-link {
+  color: $white;
+  opacity: 0.7;
+  font-weight: 600;
+  margin: 0.5rem;
+  &:hover {
+    color: $orange;
+    opacity: 1;
+  }
+  &.active {
+    color: $orange !important;
+    opacity: 1;
+  }
+}
+.navbar {
+  background-color: $dark !important;
+}
+
+.navbar-toggler {
+  color: #fff;
+  border: 1px solid #fff;
+  background: #ffff;
+}

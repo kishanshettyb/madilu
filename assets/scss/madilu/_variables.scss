@@ -1,0 +1,94 @@
+// Color system
+$white: #fff;
+$black: #000;
+$gray-100: #f6f9fc !default;
+$gray-200: #e9ecef !default;
+$gray-300: #dee2e6 !default;
+$gray-400: #ced4da !default;
+$gray-500: #adb5bd !default;
+$gray-600: #8898aa !default;
+$gray-700: #525f7f !default;
+$gray-800: #32325d !default;
+$gray-900: #212529 !default;
+
+$flickr-pink: #f72585ff;
+$byzantine: #b5179eff;
+$purple: #7209b7ff;
+$purple-2: #560badff;
+$trypan-blue: #480ca8ff;
+$trypan-blue-2: #3a0ca3ff;
+$persian-blue: #3f37c9ff;
+$ultramarine-blue: #4361eeff;
+$dodger-blue: #4895efff;
+$vivid-sky-blue: #4cc9f0ff;
+$orange: #f5a04b !default;
+
+$primary: $persian-blue;
+$secondary: $purple !default;
+$info: $vivid-sky-blue !default;
+$info-dark: #3b9cbb !default;
+$success: #2dce89 !default;
+$success-dark: #1b9b64 !default;
+// $warning: #fb6340 !default;
+$warning: $orange !default;
+$warning-dark: #e35d3e !default;
+$danger: #f5365c !default;
+$danger-dark: #cd3150 !default;
+$light: $gray-500 !default;
+$dark: $gray-900 !default;
+$default: $gray-900 !default;
+
+// Fonts
+$font-family-base: 'Open Sans', sans-serif !default;
+
+$font-size-base: 1rem !default; // Assumes the browser default, typically `16px`
+$font-size-xl: ($font-size-base * 1.5);
+$font-size-lg: ($font-size-base * 1.25);
+$font-size-sm: ($font-size-base * 0.875);
+$font-size-xs: ($font-size-base * 0.75);
+
+$font-weight-light: 300 !default;
+$font-weight-normal: 400 !default;
+$font-weight-medium: 500 !default;
+$font-weight-bold: 600 !default;
+$font-weight-extra-bold: 700 !default;
+
+$display1-size: 5rem !default;
+$display2-size: 4.5rem !default;
+$display3-size: 4rem !default;
+$display4-size: 3.5rem !default;
+$display5-size: 3rem !default;
+$display6-size: 2.5rem !default;
+
+$display1-weight: $font-weight-bold !default;
+$display2-weight: $font-weight-bold !default;
+$display3-weight: $font-weight-bold !default;
+$display4-weight: $font-weight-bold !default;
+$display5-weight: $font-weight-bold !default;
+$display6-weight: $font-weight-bold !default;
+$display-line-height: 1.2 !default;
+
+// Shadows
+$shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
+$shadow-sm: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075) !important;
+$shadow-lg: 0 1rem 3rem rgba(0, 0, 0, 0.175) !important;
+
+$shadow-colored: 0 1rem 3rem #3f37c961 !important;
+
+// Border Radius
+$border-radius-1: 5px;
+$border-radius-2: 10px;
+$border-radius-3: 25px;
+$border-radius-4: 35px;
+$border-radius-50: 50%;
+
+$theme-colors: (
+  primary: $primary,
+  secondary: $secondary,
+  success: $success,
+  info: $info,
+  warning: $warning,
+  danger: $danger,
+  light: $light,
+  dark: $dark,
+);
